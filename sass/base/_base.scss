@@ -29,3 +29,12 @@ html {
     font-size: 75%; // 1rem = 12px
   }
 }
+
+body {
+  box-sizing: border-box;
+  padding: 3rem;
+
+  @include respond(tab-port) {
+    padding: 0;
+  }
+}
